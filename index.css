@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.upperpart {
+    background: url('./images/palawan.png') no-repeat center center/cover;
+    height: 100vh;
+}
+.midpart {
+	margin-top: 50px;
+}
+.navbar {
+    background: transparent !important;
+    font-size: 1rem;
+}
+.navbar-brand {
+   display: flex;
+   align-items: center;
+}
+.navbar-brand img {
+   height: 60px;
+   margin-right: 5px;
+}
+.navbar-nav .nav-item {
+   padding: 0 30px;
+}
+.navbar-toggler {
+    border-color: black !important;
+}
+.navbar-toggler-icon {
+    filter: invert(1) brightness(0);
+}
+.navbar .nav-link, .navbar .navbar-brand {
+	color: black !important;
+}
+.hero-section {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+      text-shadow:
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
+}
+.search-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info-section {
+    background: #f8f9fa;
+    text-align: center;
+}
+.info-section .info-content{
+	padding: 30px;
+}
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info-text {
+    text-align: left;
+    padding-right: 20px;
+}
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.info-section h2 {
+    font-weight: bold;
+}
+.info-section .btn {
+    margin: 10px;
+    background-color: FEE715;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.info-section .content-options {
+	padding: 0;
+	background-color: #F9E795;
+}
+
+.news-section {
+    background: #fff;
+    padding: 30px;
+}
+.news-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: left;
+}
+.news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.news-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background: #ccc;
+    border-radius: 5px;
+}
+.news-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section {
+	margin-top: 40px;
+	margin-bottom: 100px;
+    flex: 1;
+    padding: 10px;
+}
+.footer-section h5 {
+    font-weight: bold;
+}
+.footend{
+	background: #f8e18c;
+}
+.footer-section a {
+    text-decoration: none;
+	color: black;
+}
